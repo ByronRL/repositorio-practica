@@ -2,6 +2,7 @@
 
 html{
     background-color: rgb(163, 132, 144);
+    
 }
 h1, h2 {
     font-family:Arial ;
@@ -31,7 +32,7 @@ p{
 figure{
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction:column ;
 
     img{
         border-radius: 30px;
@@ -43,14 +44,16 @@ figure{
 header{
     padding: 0px 7px 0px 7px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
+    align-content: center;
     background-color: rgba(66, 32, 39, 0.623);
 
     search{
         padding: 2px;
         margin: 1px;
         display: flex;
+        
     }    
     
     #logo{
